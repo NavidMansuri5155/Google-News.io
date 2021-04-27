@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: rgb(220, 188, 188);
+}
+
+header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+header h1{
+  color: aqua;
+}
+body {
+  background-color: whitesmoke;
+}
+.data {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+}
+.card-horizontal {
+  display: flex;
+}
+.photo {
+  width: 400px;
+  height: 350px;
+}
